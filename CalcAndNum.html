@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <nav class="NavBar">
+        <ul class="NavContainer">
+            <li class="NavItem"><a href="index.html">CountDeltApp</a></li>
+            <li class="NavItem"><a href="CalcAndNum.html">CalcAndPerfectNum</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+    <div class="random num">
+            <h1>PerfectNumber</h1>
+            <div class="perfectNumBox">
+            <input class="perfectNumInput" id="numToCheck" type="text" value="Write Number Here">
+            <button class="perfectNumCheckBtn" id="checkNum" onclick="perfect()">Check</button>
+        </div>
+    </div>
+
+
+
+<div id="calcParent">
+        <h1 class="CalcH1">Calculator</h1>
+        <div class="row">
+            <div class="column" id="resultValue">0</div>
+        </div>
+    <div class="row">
+        <div class="calcBtn column calcOperator" id="calcClear">C</div>
+        <div class="calcBtn column calcOperator" id="calcDivide">&#247;</div>
+    </div>
+    <div class="row">
+        <div class="calcBtn calcNum column" id="calcSeven">7</div>
+        <div class="calcBtn calcNum column" id="calcEight">8</div>
+        <div class="calcBtn calcNum column" id="calcNine">9</div>
+        <div class="calcBtn column calcOperator" id="calcMultiply">*</div>
+    </div>
+    <div class="row">
+        <div class="calcBtn calcNum column" id="calcFour">4</div>
+        <div class="calcBtn calcNum column" id="calcFive">5</div>
+        <div class="calcBtn calcNum column" id="calcSix">6</div>
+        <div class="calcBtn column calcOperator" id="calcMinus">-</div>
+    </div>
+    <div class="row">
+        <div class="calcBtn calcNum column" id="calcOne">1</div>
+        <div class="calcBtn calcNum column" id="calcTwo">2</div>
+        <div class="calcBtn calcNum column" id="calcThree">3</div>
+        <div class="calcBtn column calcOperator" id="calcPlus">+</div>
+    </div>
+    <div class="row">
+        <div class="calcBtn calcNum column" id="calcZero">0</div>
+        <div class="calcBtn  column" id="dot">.</div>
+        <div class="calcBtn column calcOperator" id="calcEqual">=</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
