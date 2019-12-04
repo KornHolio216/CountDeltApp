@@ -11,78 +11,85 @@
 <body>
     <nav class="NavBar">
         <ul class="NavContainer">
-            <li class="NavItem"><a href="#">CountDeltApp</a></li>
+            <li class="NavItem"><a href="index.html">CountDeltApp</a></li>
             <li class="NavItem"><a href="CalcAndNum.html">CalcAndPerfectNum</a></li>
         </ul>
     </nav>
 
 <div class="container">
         <div class="box">
+          <div class="countDeltContainer">
             <h1 class="boxMainText">Count Delt</h1>
             <div class="abcContainer">
-            <input class="a" type="text" value="a" >
-            <input class="b" type="text" value="b">
-            <input class="c" type="text" value="c">
+            <input class="a deltInput" type="number" id="deltA"  placeholder="a" >
+            <input class="b deltInput" type="number" id="deltB" placeholder="b">
+            <input class="c deltInput" type="number" id="deltC" placeholder="c">
         </div>
         <div class="outputContainer">
             <div  class="outputBox">
                 <h1 class="boxH1">your delt is:</h1>
-                <div class="output">       </div>
+                <div class="output" id="output"></div>
             </div>
             <div class="outputBox">
                 <h1 class="boxH1">delt root is:</h1>
-                <div class="output">       </div>
+                <div class="output"></div>
             </div>
             </div>   
         </div>
+    </div> 
    
         <div class="boxX1">
             <h1 class="boxMainText">Count x1</h1>
             <div class="abcContainer">
-            <input class="a" type="text" value="a" >
-            <input  class="b" type="text" value="b">
-            <input  class="c" type="text" value="&#8730 &#8710">
+            <input class="a deltInput" type="number" id="deltA"  placeholder="a" >
+            <input class="b deltInput" type="number" id="deltB" placeholder="b">
+            <input type="number" id="deltRoot"  placeholder="&#8730 &#8710">
         </div>
         <div class="outputContainer">
-            <div  class="outputBox">
+           
                 <h1 class="boxH1">your x1 is:</h1>
-                <div class="output">       </div>
-            </div>
+                <div class="output"></div>
+     
             </div>   
-        </div>
+            </div>
+      
 
-        <div class="boxX1">
+        <div class="boxX2">
             <h1 class="boxMainText">Count x2</h1>
             <div class="abcContainer">
-            <input type="text" value="a" >
-            <input type="text" value="b">
-            <input type="text" value="&#8730 &#8710">
+            <input class="a deltInput" type="number" id="deltA"  placeholder="a" >
+            <input class="b deltInput" type="number" id="deltB" placeholder="b">
+            <input type="number" id="deltRoot"  placeholder="&#8730 &#8710">
         </div>
         <div class="outputContainer">
-            <div  class="outputBox">
+    
                 <h1 class="boxH1">your  X&#8322 is:</h1>
-                <div class="output">       </div>
-            </div>
+                <div class="output"></div>
+    
             </div>   
         </div>
 
-        <div class="boxX1">
+        <div class="boxX0">
             <h1 class="boxMainText">Count x0</h1>
             <div class="abcContainer">
-            <input type="text" value="a" >
-            <input type="text" value="b">
-            <input type="text" value="&#8730 &#8710">
+            <input class="a deltInput" type="number" id="deltA"  placeholder="a" >
+            <input class="b deltInput" type="number" id="deltB" placeholder="b">
         </div>
         <div class="outputContainer">
-            <div  class="outputBox">
+
                 <h1 class="boxH1">your x0 is:</h1>
-                <div class="output">       </div>
-            </div>
+                <div class="output"></div>
+        
             </div>   
         </div>
 
 </div>
 
+    <div class="btnBox">
+        <button class="btn countAllBtn">Oblicz</button>
+    </div>
+
+    <script src="deltScript.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -62,12 +62,32 @@ font-family: 'Montserrat', sans-serif;
     border-radius: 4px;
 }
 
-.boxX1{
+.boxX1, .boxX2, .boxX0{
     background-color: #581EFF;
     display:block;
     width: 404px;
     height: 227px;
     border-radius: 4px;
+}
+
+.btnBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn{
+    background: white;
+    color: rgb(204, 10, 243);
+    border: 3px solid rgb(34, 0, 128);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px black;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .abcContainer{
@@ -143,7 +163,10 @@ border-width: 0px;
     font-size: 36px;
     border-width: 0px;
     margin-top: 10px;
-    
+}
+
+.perfectNumCheckBtn:hover{
+    cursor: pointer;
 }
 
 .calcBtn{
@@ -213,3 +236,43 @@ border-width: 0px;
 #calcDivide{
     width: 144px;
 }
+
+.countDeltContainer, .boxX1, .boxX2, .boxX0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.output{
+    width: 186px;
+    height: 61px;
+    border-radius: 4px;
+    background-color: #DDDBEB;
+}
+
+.deltInput{
+    margin-right: 29px;
+}
+
+.a{
+    margin-left: 33px;
+}
+
+.outputContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outputBox{
+    display: inline-flex;
+    
+}
+
+.countDeltContainer .outputContainer{
+    margin-top: 15px;
+}
+
+.countDeltContainer .outputBox{
+    margin-top: 10px;
+}
+
