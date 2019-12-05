@@ -1,4 +1,4 @@
-// Delt App 
+/* Delt App 
 const deltA = document.getElementById("deltA").value;
 const deltB = document.getElementById("deltB").value;
 const deltC = document.getElementById("deltC").value;
@@ -11,14 +11,14 @@ function countDelt(deltA,deltB,deltC){
     let b = deltB
     let c = deltC
     
-    let countDelt = Math.pow(b*b) - 4*a*c; 
-    let countX1 =  -b - Math.sqrt(countDelt) / 2;
-    let countX2 = -b + Math.sqrt(countDelt)/2;
+    let countDelt = Math.pow(b,2) - 4*a*c; 
+    let countX1 =  -b - Math.sqrt(countDelt) / (2*a);
+    let countX2 = -b + Math.sqrt(countDelt)/ (2*a);
     let countX0 = -b/ (2*a) 
 }
 
 
-/*function calcDelt() {
+function calcDelt() {
     const defValues = {deltA: 1, deltB: 1, deltC: 1};
 
     const values = {
@@ -50,3 +50,44 @@ const delt = countDelt
 
 console.log(delt)   */
 
+document.addEventListener("DOMContentLoaded", () => {
+   
+    function count(a,b,c) {
+    const delta = Math.pow(b,2)-4*a*c
+    console.log(delta);
+    const x1 = (-b-Math.sqrt(delta))/2*a;
+   
+    const x2 = (-b+Math.sqrt(delta))/2*a;
+   
+    document.getElementById("resultX1").textContent =`x1: ${x1}`
+    document.getElementById("resultX2").textContent = `x2: ${x2}`
+    document.getElementById("resultDelt").textContent = ` Δ = ${delta}`
+    };
+   
+   
+    document.getElementById("form").addEventListener("submit", function(e) {
+        e.preventDefault();
+        const a = document.getElementById("a").value;
+        const b = document.getElementById("b").value;
+        const c = document.getElementById("c").value;
+       
+        if(a,b,c) {
+          count(Number.parseInt(a),Number.parseInt(b),Number.parseInt(c));
+        }
+    });
+   
+    document.querySelectorAll(".input").forEach(input => {
+   
+   
+    input.addEventListener("change", (e) => {
+        const a = document.getElementById("a").value;
+        const b = document.getElementById("b").value;
+        const c = document.getElementById("c").value;
+   
+        if(a,b,c) {
+          count(Number.parseInt(a),Number.parseInt(b),Number.parseInt(c));
+        }
+       
+    }) 
+    })
+    });

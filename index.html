@@ -16,14 +16,14 @@
         </ul>
     </nav>
 
-<div class="container">
+    <form  class="container">
         <div class="box">
           <div class="countDeltContainer">
             <h1 class="boxMainText">Count Delt</h1>
             <div class="abcContainer">
-            <input class="a deltInput" type="number" id="deltA"  placeholder="a" >
-            <input class="b deltInput" type="number" id="deltB" placeholder="b">
-            <input class="c deltInput" type="number" id="deltC" placeholder="c">
+            <input id="a" class="deltInput" type="number" id="deltA"  placeholder="a" >
+            <input id="b" class="deltInput" type="number" id="deltB" placeholder="b">
+            <input id="c" class="deltInput" type="number" id="deltC" placeholder="c">
         </div>
         <div class="outputContainer">
             <div  class="outputBox">
@@ -32,7 +32,7 @@
             </div>
             <div class="outputBox">
                 <h1 class="boxH1">delt root is:</h1>
-                <div class="output"></div>
+                <div class="output resultDelt"></div>
             </div>
             </div>   
         </div>
@@ -48,7 +48,7 @@
         <div class="outputContainer">
            
                 <h1 class="boxH1">your x1 is:</h1>
-                <div class="output"></div>
+                <div class="output resultX1"></div>
      
             </div>   
             </div>
@@ -64,7 +64,7 @@
         <div class="outputContainer">
     
                 <h1 class="boxH1">your  X&#8322 is:</h1>
-                <div class="output"></div>
+                <div class="output resultX2"></div>
     
             </div>   
         </div>
@@ -82,13 +82,13 @@
         
             </div>   
         </div>
+        <div class="btnBox">
+                <button class="btn countAllBtn" type="submit">Oblicz</button>
+            </div>
+        
+    </form>
 
-</div>
-
-    <div class="btnBox">
-        <button class="btn countAllBtn">Oblicz</button>
-    </div>
-
+  
     <script src="deltScript.js"></script>
     <script src="script.js"></script>
 </body>
