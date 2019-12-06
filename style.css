@@ -71,20 +71,21 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .btnBox{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 25%;
+    position: absolute;
 }
 
 .btn{
     background: white;
-    color: rgb(204, 10, 243);
-    border: 3px solid rgb(34, 0, 128);
+    color: #000000;
+    border: 2px solid rgb(34, 0, 128);
     font-size: 1.5rem;
     padding: 0.5rem;
     border-radius: 20%;
-    box-shadow: 2px 5px black;
+    box-shadow: 2px 4px black;
     outline: none;
     font-weight: bold;
     cursor: pointer;
@@ -93,6 +94,7 @@ font-family: 'Montserrat', sans-serif;
 .abcContainer{
     display: flex;
     justify-content:space-between;
+    margin-left: 5%;
 }
 
 input{
