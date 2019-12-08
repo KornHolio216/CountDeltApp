@@ -58,7 +58,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: #581EFF;
     display:block;
     width: 404px;
-    height: 299px;
+    height: 520px;
     border-radius: 4px;
 }
 
@@ -74,21 +74,24 @@ font-family: 'Montserrat', sans-serif;
     display: inline-block;
     justify-content: center;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 30%;
     position: absolute;
+    width: 404px;
 }
 
 .btn{
     background: white;
     color: #000000;
     border: 2px solid rgb(34, 0, 128);
-    font-size: 1.5rem;
+    font-size: 36px;
+    font-weight: bold;
     padding: 0.5rem;
-    border-radius: 20%;
-    box-shadow: 2px 4px black;
+    border-radius: 4px;
+    box-shadow: 2px 3px black;
     outline: none;
     font-weight: bold;
     cursor: pointer;
+    width: 404px;
 }
 
 .abcContainer{
@@ -246,10 +249,16 @@ border-width: 0px;
 }
 
 .output{
+    display: flex;
     width: 186px;
     height: 61px;
     border-radius: 4px;
     background-color: #DDDBEB;
+    justify-content: center;
+    color: #000000;
+    align-items: center;
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .deltInput{
