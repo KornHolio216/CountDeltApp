@@ -18,13 +18,19 @@
 
     <div class="container">
 
-    <div class="perfectNum">
-            <h1>PerfectNumber</h1>
-            <div class="perfectNumBox">
-            <input class="perfectNumInput" id="numToCheck" type="text" placeholder="Write Number Here">
-            <button class="perfectNumCheckBtn" id="checkNum" onclick="clickPerfectNumBtn()">Check</button>
+    <form class="randomNum" id="form2">
+            <h1>RandomNumber</h1>
+            <div class="rendomNumBox">
+            <input class="randomNumInput" id="minNum" type="number" placeholder="Min">
+            <input class="randomNumInput"  id="maxNum" type="number" placeholder="Max">
+            <input class="howManyNumbers" id="numOfNums" type="number" placeholder="How many nums">
+            <button class="randomNumBtn" type="submit">Random</button>
+        <div class="outputBox">
+            <h3>Your nums are:</h3>
+            <div id="outputNums" class="outputNumsBox"></div>
         </div>
-    </div>
+        </div>
+    </form>
 
 
 
@@ -62,13 +68,7 @@
     </div>
 </div>
 
-
-
-
-
-
-
-    <script src="perfectNum.js"></script>
+    <script src="randomNum.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
