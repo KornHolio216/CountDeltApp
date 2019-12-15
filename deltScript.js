@@ -53,12 +53,20 @@ console.log(delt)   */
 document.addEventListener("DOMContentLoaded", () => {
    
     function count(a,b,c) {   
+    
     const delta = Math.pow(b,2)-4*a*c   
     document.getElementById("resultDelt").textContent = `${delta}`
     const deltRoot = Math.sqrt(delta)
     document.getElementById("resultRoot").textContent = `${deltRoot.toFixed(2)}`
-
-    if (delta>0){
+    if(a===0){
+        alert('If  "a" is 0, the function is linear')
+        document.getElementById("resultDelt").textContent = "-"
+        document.getElementById("resultX1").textContent = "-"
+        document.getElementById("resultX2").textContent = "-" 
+        document.getElementById("resultX0").textContent = "-"
+        document.getElementById("resultRoot").textContent = "-"
+    }
+    else if (delta>0){
         const x1 = (-b-Math.sqrt(delta))/2*a;
         const x2 = (-b+Math.sqrt(delta))/2*a;
         document.getElementById("resultX1").textContent = `${x1.toFixed(2)}`
