@@ -63,7 +63,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .logo{
-    margin-top: 150px;
+    margin: 150px 50px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
