@@ -1,0 +1,114 @@
+
+
+.boxX1, .boxX2, .boxX0{
+    background-color: #581EFF;
+    display:block;
+    width: 404px;
+    height: 227px;
+    border-radius: 4px;
+}
+
+.btnBox{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30%;
+    position: absolute;
+    width: 404px;
+}
+
+.btn{
+    background: white;
+    color: #000000;
+    border: 2px solid rgb(34, 0, 128);
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 2px 3px black;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 404px;
+}
+
+.abcContainer{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 5%;
+}
+
+.boxMainText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 13px 51px 0px 33px;
+}
+
+.boxH1{
+    width: 147px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 23px;
+}
+
+.outputBox{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.countDeltContainer, .boxX1, .boxX2, .boxX0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.output{
+    display: flex;
+    width: 186px;
+    height: 61px;
+    border-radius: 4px;
+    background-color: #DDDBEB;
+    justify-content: center;
+    color: #000000;
+    align-items: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.deltInput{
+    margin-right: 29px;
+}
+
+.a{
+    margin-left: 33px;
+}
+
+.outputContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outputBox{
+    display: inline-flex;
+    
+}
+
+.countDeltContainer .outputContainer{
+    margin-top: 15px;
+}
+
+.countDeltContainer .outputBox{
+    margin-top: 10px;
+}
+
