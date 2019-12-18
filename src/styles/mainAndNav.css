@@ -62,6 +62,12 @@ font-family: 'Montserrat', sans-serif;
     border-radius: 4px;
 }
 
+.logo{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 input{
     width: 96px;
