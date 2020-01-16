@@ -113,3 +113,9 @@
     margin-top: 10px;
 }
 
+@media (max-width: 768px){
+    .btnBox{
+        position: relative;
+        margin-top: 30px;
+    }
+}
