@@ -85,7 +85,26 @@ input{
     margin:auto;
 }
 
-@media (max-width: 576px){
+@media (max-width: 992px) { 
+    .NavContainer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .NavContainer li{
+        font-size: 36px;
+    }
+
+    .container{
+        padding-top: 50px;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
     .NavContainer{
         flex-direction: column;
         text-align: center;
@@ -99,7 +118,7 @@ input{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
     .NavContainer{
         flex-direction: column;
         text-align: center;

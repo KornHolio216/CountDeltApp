@@ -113,7 +113,26 @@
     margin-top: 10px;
 }
 
+@media (min-width: 1200px){
+    .btnBox{
+        margin-top: 600px;
+    }
+}
+
+@media (max-width: 992px) {
+    .btnBox{
+        margin-top: 535px;
+    }
+ }
+
 @media (max-width: 768px){
+    .btnBox{
+        position: relative;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px){
     .btnBox{
         position: relative;
         margin-top: 30px;
