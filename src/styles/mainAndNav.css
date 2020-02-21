@@ -5,7 +5,10 @@
 }
 
 body{
-background: linear-gradient(112.49deg, rgba(28, 63, 248, 0.69) 0%, rgba(33, 30, 203, 0.5451) 100.6%);
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 font-family: 'Montserrat', sans-serif;
 -webkit-touch-callout: none; /* iOS Safari */
 -webkit-user-select: none; /* Safari */
@@ -39,12 +42,6 @@ font-family: 'Montserrat', sans-serif;
 
 .NavContainer li a{
     text-decoration: none;
-    color: #FFFFFF;
-}
-
-.logo {
-    margin: 55px 120px 20px;
-    font-size: 144px;
     color: #FFFFFF;
 }
 
