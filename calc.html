@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calc and random number</title>
+    <title>Calc</title>
     <link rel="stylesheet" href="./src/styles/mainAndNav.css">
-    <link rel="stylesheet" href="./src/styles/calc_randomNum.css">
+    <link rel="stylesheet" href="./src/styles/calc.css.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 </head>
 <body>
@@ -14,28 +14,12 @@
         <div class="logo"><img src="./src/img/AppBanner.svg" alt="Oops"></div>
         <ul class="NavContainer">
             <li class="NavItem"><a href="index.html">CountDeltApp</a></li>
-            <li class="NavItem"><a href="CalcAndNum.html">CalcAndPerfectNum</a></li>
+            <li class="NavItem"><a href="calc.html">Calc</a></li>
+            <li class="NavItem"><a href="randomnum.html">RandomNum</a></li>
         </ul>
     </nav>
 
     <div class="container">
-
-    <form class="randomNum" id="form2">
-            <h1>RandomNumber</h1>
-            <div class="rendomNumBox">
-            <input class="randomNumInput" id="minNum" type="number" placeholder="Min">
-            <input class="randomNumInput"  id="maxNum" type="number" placeholder="Max">
-            <input class="howManyNumbers" id="numOfNums" type="number" placeholder="How many nums">
-            <button class="randomNumBtn" type="submit">Random</button>
-        <div class="outputBox">
-            <h3>Your nums are:</h3>
-            <div id="outputNums" class="outputNumsBox"></div>
-        </div>
-        </div>
-    </form>
-
-
-
 <div id="calcParent">
         <h1 class="CalcH1">Calculator</h1>
         <div class="row">
@@ -71,6 +55,6 @@
 </div>
 
     <script src="./src/js/calc.js"></script>
-    <script src="./src/js/randomNum.js"></script>
+  
 </body>
 </html>

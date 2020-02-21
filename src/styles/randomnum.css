@@ -48,7 +48,6 @@ resize:vertical;
 overflow:auto;  
 }
 
-
 .randomNumInput{
 background-color: #FFFFFF;
 border-radius: 4px;
@@ -71,72 +70,4 @@ border-width: 0px;
 
 .randomNumBtn:hover{
     cursor: pointer;
-}
-
-.calcBtn{
-    background-color: #581EFF;
-    color: #FFFFFF;
-    width: 72px;
-    height: 66px;
-    border: 1px solid #7580EE;
-    text-align: center;
-    cursor: pointer;
-    font-size: 48px;
-    font-weight: bold;
-    padding-top: 3px;
-}
-
-.calcBtn:hover{
-    background-color: rgb(158, 126, 255);
-
-}
-
-.row{
-    display: table;
-    table-layout: fixed;
-    width: 200px;
-}
-
-.column{
-    display: table-cell;
-}
-
-#calcZero{
-    width: 144px;
-    border-radius: 0 0 0 4px;
-}
-
-#resultValue{
-    height: 88px; 
-    width: 288px;
-    color: #000000;
-    text-align: right;
-    border-left: 1px solid #7580EE;
-    border-right: 1px solid #7580EE;
-    border-top: 1px solid #7580EE;
-    font-size: 42px;
-    background-color: #FFFFFF;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 12px;
-    border-radius: 4px 4px 0 0;
-}
-
-.CalcH1{
-    text-align: center;
-    margin-bottom: 15px;
-    color: #ffffff;
-    font-size: 48px;
-}
-
-#calcEqual{
-    border-radius: 0 0 4px 0;
-}
-
-#calcClear{
-    width: 144px;
-}
-
-#calcDivide{
-    width: 144px;
 }
