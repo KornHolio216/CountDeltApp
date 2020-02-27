@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Count Delt</title>
+    <link rel="stylesheet" href="./src/styles/deltContainer.css">
+    <link rel="stylesheet" href="./src/styles/mainAndNav.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <nav class="NavBar">
+        <div class="logo"><img src="./src/img/AppBanner.svg" alt="Oops"></div>
+        <ul class="NavContainer">
+            <li class="NavItem"><a href="index.html">CountDeltApp</a></li>
+            <li class="NavItem"><a href="calc.html">Calc</a></li>
+            <li class="NavItem"><a href="randomnum.html">RandomNum</a></li>
+        </ul>
+    </nav>
+
+    <form  class="container" id="form">
+        <div class="box">
+          <div class="countDeltContainer">
+            <h1 class="boxMainText">Count Delt</h1>
+            <div class="abcContainer">
+            <input id="a" class="deltInput input" type="number" id="deltA"  placeholder="a" >
+            <input id="b" class="deltInput input" type="number" id="deltB" placeholder="b">
+            <input id="c" class="deltInput input" type="number" id="deltC" placeholder="c">
+        </div>
+        <div class="outputContainer">
+            <div  class="outputBox">
+                <h1 class="boxH1">your  Δ is:</h1>
+                <div class="output" id="resultDelt"></div>
+            </div>
+            <div class="outputBox">
+                <h1 class="boxH1">your &#8730<sub>Δ </sub> is:</h1>
+                <div class="output" id="resultRoot"></div>
+            </div>
+            <div class="outputBox">
+                <h1 class="boxH1">your  x<sub>1</sub> is:</h1>
+                <div class="output" id="resultX1"></div>
+            </div>
+            <div class="outputBox">
+                <h1 class="boxH1">your x<sub>2</sub> is:</h1>
+                <div class="output" id="resultX2"></div>
+            </div>
+            <div class="outputBox">
+                <h1 class="boxH1">your x<sub>0</sub> is:</h1>
+                <div class="output" id="resultX0"></div>
+            </div>
+            </div>   
+        </div>
+    </div> 
+        <div class="btnBox">
+                <button class="btn countAllBtn" type="submit">Oblicz</button>
+            </div>
+        
+    </form>
+
+  
+    <script src="./src/js/deltScript.js"></script>
+</body>
+</html>
