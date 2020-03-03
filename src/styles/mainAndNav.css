@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
     background-size: cover;
@@ -16,6 +20,24 @@ font-family: 'Montserrat', sans-serif;
    -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
         user-select: none; /* Non-prefixed version, currently */
+}
+
+.NavbarToggle{
+    width: 65px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 50px 50px 0 0;
+    cursor: pointer;
+}
+.toogleStrip{
+    width: 100%;
+    height: 10px;
+    background: #FFFFFF;
 }
 
 .NavBar{
@@ -31,6 +53,7 @@ font-family: 'Montserrat', sans-serif;
         list-style-type: none;
         display: flex; 
         margin: auto;
+        display: none;
 }
 
 .NavContainer li{
@@ -60,10 +83,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .logo{
-    margin: 150px 50px 0px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 50px 50px 0px 0px;
 }
 
 input{
