@@ -1,25 +1,23 @@
-
-const btnOne = document.getElementById('calcOne')
-const btnTwo = document.getElementById('calcTwo')
-const btnThree = document.getElementById('calcThree')
-const btnFour = document.getElementById('calcFour')
-const btnFive = document.getElementById('calcFive')
-const btnSix = document.getElementById('calcSix')
-const btnSeven = document.getElementById('calcSeven')
-const btnEight = document.getElementById('calcEight')
-const btnNine = document.getElementById('calcNine')
-const btnZero = document.getElementById('calcZero')
-
-const btnDot = document.getElementById('dot')
-const clearBtn = document.getElementById('calcClear')
-const resultValue = document.getElementById('resultValue')
+const btnOne = document.querySelector("#calcOne")
+const btnTwo = document.querySelector("#calcTwo")
+const btnThree = document.querySelector("#calcThree")
+const btnFour = document.querySelector("#calcFour")
+const btnFive = document.querySelector("#calcFive")
+const btnSix = document.querySelector("#calcSix")
+const btnSeven = document.querySelector("#calcSeven")
+const btnEight = document.querySelector("#calcEight")
+const btnNine = document.querySelector("#calcNine")
+const btnZero = document.querySelector("#calcZero")
+const btnDot = document.querySelector("#dot")
+const clearBtn = document.querySelector("#calcClear")
+const resultValue = document.querySelector("#resultValue")
 
 var resultVal = '0';
 var pendingVal;
 var evalStringArray = []; 
 
-const calcNums = document.getElementsByClassName('calcNum')
-const calcOperators = document.getElementsByClassName('calcOperator')
+const calcNums = document.querySelectorAll(".calcNum")
+const calcOperators = document.querySelectorAll(".calcOperator")
 
 const updateResultVal = (clickObject) =>{
     const resultText = clickObject.target.innerText; 
@@ -102,7 +100,7 @@ btnDot.onclick = () => {
 }
 
 const perfect = () =>{
-    const a=Number(document.getElementById("checkNum").value)
+    const a=Number(document.querySelector("#checkNum").value)
     const b=0;
 }
 
