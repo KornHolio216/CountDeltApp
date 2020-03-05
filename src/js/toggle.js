@@ -1,7 +1,12 @@
-const navButton = document.querySelector(".NavClosed")
-const navOpen = document.querySelector(".NavOpen")
+const toggle = document.querySelector(".NavbarToggle")
+const navbar = document.querySelector(".Navbar")
 
-const tl = new TimelineLite({paused : true, reversed: true})
+toggle.addEventListener(onclick, toggleNav())
+
+function toggleNav(){
+   navbar.setAttribute("display", "flex")
+}
+/*const tl = new TimelineLite({paused : true, reversed: true})
 
 tl.to("navOpen", 1, {
    width: "100%",
@@ -20,6 +25,4 @@ toggleTween(tl)
 
 function toggleTween(tween){
    tween.reversed() ? tween.play() : tween.reverse()
-}
-
-
+}  */
