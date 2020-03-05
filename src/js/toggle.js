@@ -1,12 +1,22 @@
-const toggle = document.querySelector(".NavbarToggle")
-const navbar = document.querySelector(".Navbar")
+const toggle = document.querySelector(".NavbarToggle").addEventListener("click", navDisplay())
 
-toggle.addEventListener(onclick, toggleNav())
-
-function toggleNav(){
-   navbar.setAttribute("display", "flex")
+function navDisplay(){
+   const navbar = document.querySelector(".Navbar")
+   navbar.style.display = "none"
 }
-/*const tl = new TimelineLite({paused : true, reversed: true})
+
+/* function changeNavDisplay() {
+   let navbar = document.querySelector(".Navbar")
+   navbar.classList.toggle("visible")
+   console.log("chuj")
+}
+
+function toggle(){
+   const toggle = document.querySelector(".NavbarToggle")
+   toggle.addEventListener("click", changeNavDisplay, false)
+}
+
+const tl = new TimelineLite({paused : true, reversed: true})
 
 tl.to("navOpen", 1, {
    width: "100%",
