@@ -57,6 +57,8 @@ font-family: 'Montserrat', sans-serif;
         list-style-type: none;
         display: flex; 
         margin: auto;
+        flex-direction: column;
+        text-align: center;
 }
 
 .NavContainer li{
