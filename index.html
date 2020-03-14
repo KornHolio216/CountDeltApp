@@ -7,11 +7,12 @@
     <title>Count Delt</title>
     <link rel="stylesheet" href="./src/styles/deltContainer.css">
     <link rel="stylesheet" href="./src/styles/mainAndNav.css">
+    <link rel="stylesheet" href="./src/styles/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 </head>
 <body>
     <div class="logo"><img src="./src/img/AppBanner.svg" alt="Oops"></div>
-    <div class="NavbarToggle" onclick="toggle()">
+   <!--- <div class="NavbarToggle" onclick="toggle()">
         <div class="toogleStrip"></div>
         <div class="toogleStrip"></div>
         <div class="toogleStrip"></div>
@@ -22,7 +23,21 @@
             <li class="NavItem"><a href="calc.html">Calc</a></li>
             <li class="NavItem"><a href="randomnum.html">RandomNum</a></li>
         </ul>
-    </nav>
+    </nav>  -->
+
+    <div class="container">
+        <span class="menu-icon" >&#9776;</span>
+      </div>
+    
+      <div class="menu-container" id="navbar">
+        <span class="closebtn">&times;</span>
+        <div class="menu-content">
+            <li class="NavItem"><a href="index.html">CountDeltApp</a></li>
+            <li class="NavItem"><a href="calc.html">Calc</a></li>
+            <li class="NavItem"><a href="randomnum.html">RandomNum</a></li>
+        </div>
+      </div>
+    
 
     <form  class="container" id="form">
         <div class="box">
@@ -63,9 +78,7 @@
         
     </form>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+
     <script src="./src/js/toggle.js"></script>
     <script src="./src/js/deltScript.js"></script>
 </body>
