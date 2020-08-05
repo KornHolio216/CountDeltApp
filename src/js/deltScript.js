@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => { // adding event listener f
          const a = document.getElementById("a").value;
          const b = document.getElementById("b").value;
          const c = document.getElementById("c").value;
-   
         if(a,b,c) {
           count(Number.parseInt(a),Number.parseInt(b),Number.parseInt(c));
             }  
