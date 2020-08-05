@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-   
+
     function count(a,b,c) {   
     
     const delta = Math.pow(b,2)-4*a*c   
