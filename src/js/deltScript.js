@@ -15,13 +15,13 @@ document.addEventListener("DOMContentLoaded", () => { // adding event listener f
         document.getElementById("resultRoot").textContent = "-"
     }
     else if (delta>0){ 
-        const x1 = (-b-Math.sqrt(delta))/2*a;
-        const x2 = (-b+Math.sqrt(delta))/2*a;
+        const x1 = (-b - Math.sqrt(delta)) / (2 * a);
+        const x2 = (-b + Math.sqrt(delta)) / (2 * a);
         document.getElementById("resultX1").textContent = `${x1.toFixed(2)}`
         document.getElementById("resultX2").textContent = `${x2.toFixed(2)}` 
         document.getElementById("resultX0").textContent = "-"
     } else if(delta===0){
-        const x0 = (-b)/2*a;
+        const x0 = -b / (2 * a);
         document.getElementById("resultX0").textContent = `${x0}`
         document.getElementById("resultX1").textContent = "-"
         document.getElementById("resultX2").textContent = "-" 
